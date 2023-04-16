@@ -1,1 +1,1 @@
-https://livecchy.github.io/sitemap.xml
+Sitemap:https://livecchy.github.io/sitemap.xml
