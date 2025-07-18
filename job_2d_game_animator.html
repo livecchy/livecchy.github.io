@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>串串互娱 - 招聘2D动画师</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Noto Serif SC", "Segoe UI", Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f9e9d8; /* Warm off-white inspired by parchment */
+            color: #333;
+        }
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #a71d31 0%, #c0392b 100%); /* Sichuan-inspired red gradient */
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 8px solid #e67e22; /* Orange accent for spice */
+            position: relative;
+            overflow: hidden;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://via.placeholder.com/1000x200/ffffff/000000?text=Chili+Pattern') no-repeat center;
+            background-size: cover;
+            opacity: 0.1; /* Subtle chili pepper pattern */
+            z-index: 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            letter-spacing: 3px;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .section {
+            background: #fff;
+            padding: 40px;
+            margin-top: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            position: relative;
+            border-left: 5px solid #e67e22; /* Orange border for flair */
+            transition: transform 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-5px); /* Subtle lift effect on hover */
+        }
+        .section h2 {
+            color: #a71d31; /* Deep red for headers */
+            margin-bottom: 15px;
+            font-size: 28px;
+            font-weight: 700;
+            position: relative;
+            padding-left: 20px;
+        }
+        .section h2::before {
+            content: '🔥'; /* Chili emoji for Sichuan spice */
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .section h3 {
+            color: #d35400; /* Warm orange for subheadings */
+            font-size: 22px;
+            margin-top: 20px;
+        }
+        .section p {
+            font-size: 16px;
+            color: #4a3c31; /* Dark brown for readability */
+        }
+        .section ul {
+            margin: 15px 0 25px 20px;
+            padding-left: 0;
+            list-style: none;
+        }
+        .section ul li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 30px;
+            font-size: 16px;
+        }
+        .section ul li::before {
+            content: '🍡'; /* Skewer emoji for list items */
+            position: absolute;
+            left: 0;
+            color: #e67e22;
+        }
+        .section::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 2px;
+            background: linear-gradient(to right, transparent, #e67e22, transparent); /* Decorative divider */
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 28px;
+            }
+            .section {
+                padding: 20px;
+            }
+            .section h2 {
+                font-size: 24px;
+            }
+            .section h3 {
+                font-size: 20px;
+            }
+        }
+        /* Button for interactivity */
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #c0392b;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 700;
+            transition: background 0.3s ease;
+        }
+        .cta-button:hover {
+            background: #e67e22;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>串串互娱 - 招聘2D动画师</h1>
+    </header>
+    <div class="container">
+        <div class="section">
+            <h2>职位描述</h2>
+            <p>串串互娱（成都）科技有限公司正在寻找一名富有创意和热情的2D动画师，加入我们的团队，共同打造以四川串串文化为灵感的休闲游戏！我们希望你能通过充满国风和地域特色的动画，为玩家带来沉浸式的美食与文化体验。</p>
+            <p>作为2D动画师，你将与我们的美术和设计团队紧密合作，创作符合国风美学和四川文化特色的动态视觉效果，为游戏增添趣味性和文化深度。</p>
+
+            <h3>岗位职责</h3>
+            <ul>
+                <li>设计和制作2D游戏角色、场景及特效动画，体现四川文化特色（如串串、辣椒、街头美食氛围）。</li>
+                <li>与美术团队协作，确保动画风格与国风主题一致，兼具美观性和流畅性。</li>
+                <li>参与游戏动画的创意策划，为玩法和叙事增添动态表现力。</li>
+                <li>优化动画资源，确保在不同设备上的流畅运行。</li>
+            </ul>
+
+            <h3>任职要求</h3>
+            <ul>
+                <li>熟悉2D动画制作工具（如Spine、After Effects、Animate或同类软件）。</li>
+                <li>熟悉国风美术风格，对中国传统文化（尤其是四川地域文化）有一定了解。</li>
+                <li>具备良好的审美能力和创意表达，能够将美食与文化融入动画设计。</li>
+            </ul>
+
+            <p>如果你对四川的串串文化充满热情，热爱创作充满趣味和文化深度的游戏动画，欢迎加入串串互娱！让我们一起为全球玩家带来独特的娱乐体验！</p>
+            <a href="mailto:chuanchuanhuyu@gmail.com" class="cta-button" aria-label="发送简短简历和作品，联系方式到邮箱">发送简短简历和作品，联系方式到邮箱</a>
+        </div>
+
+        <div class="section">
+            <h2>Job Description</h2>
+            <p>ChuanChuan Interactive Entertainment (Chengdu) Technology Co., Ltd. is seeking a creative and passionate 2D Animator to join our team in crafting casual games inspired by Sichuan’s skewer culture! We’re looking for someone who can create immersive animations with Chinese traditional aesthetics and Sichuan’s vibrant cultural flair.</p>
+            <p>As a 2D Animator, you will collaborate closely with our art and design teams to produce dynamic visuals that enhance gameplay with cultural depth and playful charm.</p>
+
+            <h3>Responsibilities</h3>
+            <ul>
+                <li>Design and create 2D animations for characters, environments, and effects, reflecting Sichuan cultural elements (e.g., skewers, chili peppers, street food vibes).</li>
+                <li>Collaborate with the art team to ensure animations align with the Chinese traditional style and maintain visual consistency.</li>
+                <li>Contribute to creative planning, adding dynamic flair to gameplay and storytelling.</li>
+                <li>Optimize animation assets for smooth performance across various devices.</li>
+            </ul>
+
+            <h3>Requirements</h3>
+            <ul>
+                <li>Proficient in 2D animation tools (e.g., Spine, After Effects, Animate, or similar software).</li>
+                <li>Familiar with Chinese traditional art styles and an understanding of Sichuan’s regional culture.</li>
+                <li>Strong aesthetic sense and creative storytelling, with the ability to integrate food and cultural themes into animations.</li>
+                <li>2+ years of experience in 2D animation or game development preferred.</li>
+                <li>Passionate about casual games, with strong teamwork and communication skills.</li>
+            </ul>
+
+            <p>If you’re excited about Sichuan’s skewer culture and love creating fun, culturally rich game animations, join ChuanChuan Interactive! Let’s bring unique entertainment experiences to players worldwide!</p>
+            <a href="mailto:chuanchuanhuyu@gmail.com" class="cta-button" aria-label="Send Resume and Portfolio, Contact via Email">Send Resume and Portfolio, Contact via Email</a>
+        </div>
+    </div>
+</body>
+</html>
